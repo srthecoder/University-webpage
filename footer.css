@@ -1,0 +1,237 @@
+.sbar{
+  width:100%;
+  background-color: #f4f4f4;	
+}
+.fa {
+  float: left;
+  margin-left: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  margin-left: 1000px;
+  background: #f4f4f4;
+  color: black;
+}
+.fa-facebook:hover {
+  color: #2e2e99;
+}
+
+.fa-twitter {
+  background: #f4f4f4;
+  color: black;
+}
+.fa-twitter:hover {
+  color: #2699e6;
+}
+
+.fa-linkedin {
+  background: #f4f4f4;
+  color: black;
+}
+.fa-linkedin:hover {
+  color: #4a66d1;
+}
+
+.fa-youtube {
+  background: #f4f4f4;
+  color: black;
+}
+.fa-youtube:hover {
+ color: #cc001f;
+}
+
+.fa-instagram {
+  background: #f4f4f4;
+  color: black;
+}
+.fa-instagram:hover {
+ color: #cc1c5c;
+}
+
+.f1 a.head{
+  color: #8c1515;
+  font-size: 15px;
+  font-weight: bold;
+  float:left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 14px;
+  line-height: 20px;
+  text-decoration: none;
+
+}
+.f2 a.head{
+  color: #8c1515;
+  font-size: 15px;
+  font-weight: bold;
+  float:left;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-top: 14px;
+  text-decoration: none;
+  line-height: 20px;	
+}
+.f3 a.head{
+  color: #8c1515;
+  font-size: 15px;
+  font-weight: bold;
+  float:left;
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-top: 14px;
+  text-decoration: none;
+  line-height: .75;
+}
+.f3 li a.head{
+margin-left: 10px;
+}
+
+.f4 a.head{
+  color: #8c1515;
+  font-size: 15px;
+  font-weight: bold;
+  float:left;
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-top: 14px;
+  text-decoration: none;
+  line-height: .75;
+}
+.f4 li a.head{
+margin-left: 10px;
+}
+
+.f5 a.head{
+  color: #8c1515;
+  font-size: 15px;
+  font-weight: bold;
+  float:left;
+  margin-left: 50px;
+  margin-right: 10px;
+  margin-top: 14px;
+  text-decoration: none;
+  line-height: .75;
+}
+
+.f1{
+  float:left;
+  margin-left: 20px;
+  margin-top: 14px;
+  line-height:12px;
+  text-decoration: none;
+  color: black;
+}
+.f2, .f3, .f4{
+  float:left;
+  margin-left: 10px;
+  margin-top: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: black;
+}
+.f5{
+  float: left;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-top: 14px;
+  line-height:12px;
+  text-decoration: none;
+  color: black;
+}
+.f1 a, .f2 a,.f3 a,.f4 a,.f5 a{
+  line-height:.75;
+  color: black;
+  font-size: 15 px;
+  float:left;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 14px;
+  line-height:25px;
+  color: black;
+  font-size: 15 px;
+}
+.bml{
+  float: right;
+  background-color: white; 
+  color: dimgrey; 
+  height: 50px;
+  width: 14%;
+  border: 1.2px solid black;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 0px;
+  margin-right: 35px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 4px 2px 4px 4px rgba(0.05,0.05,0.05,0.05), 0px 0px 5px 0px rgba(0,0,0,0.19);
+}
+.bm {
+  float: right;
+  background-color: white; 
+  color: dimgrey; 
+  height: 50px;
+  width: 14%;
+  border: 1.2px solid black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 0px;
+  margin-right: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 4px 2px 4px 4px rgba(0.05,0.05,0.05,0.05), 0px 0px 5px 0px rgba(0,0,0,0.19);
+}
+
+.bm:hover, .bml:hover {
+  background-color: white;
+  color: #b1040e;
+  border: 1.2px solid #b1040e;
+}
+.bottomnav{
+background-color: #8c1515;
+}
+.bottomnav a.name{
+  float:left;
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-top: 14px;
+  font-stretch: condensed;
+  font-weight: 400;
+  text-align:center;
+  font-family:SourceSansPro;
+  line-height: .75;
+  font-size: 1.8em;
+}
+
+.bottomnav a{
+  font-family:arial;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  padding: 13px 20px;
+  text-align: right;
+  text-decoration: none;
+
+}
+.bnav a{
+  color: white;
+  font-size: 14px;
+  line-height: 40px;
+  margin-bottom: 14px;
+  font-weight: normal;
+  padding: 13px 20px;
+  text-align: right;
+  text-decoration: none;
+}

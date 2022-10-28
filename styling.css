@@ -1,0 +1,158 @@
+body {
+  line-height: 1.5;
+  margin:0;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+  background-color: #f4f4f4;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("SUS.jpg");
+  min-height:550px;
+  /* Center and scale the image nicely */
+  background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;  
+  /* Needed to position the navbar */
+  position: relative;
+}
+.shadow{
+background: linear-gradient(to bottom,rgba(0,0,0,.85),black,transparent 100px);
+}
+
+/* Style the topmost bar */
+.topmost {
+    overflow: hidden;
+}
+.topmost a.name{
+float:left;
+font-family:SourceSansPro;
+font-size: 24px;
+padding: 8px 20px;
+}
+
+/* Style the topmost links */
+.topmost a {
+  float: right;
+  color: white;
+  font-size: 16px;
+  text-align: right;
+  padding: 13px 20px;
+  text-decoration: none;
+}
+.topmost a.name:hover{
+ visibilty:hidden;
+}
+.topmost a:hover {
+  position: relative;
+}
+
+.topmost a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+.topmost a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+}
+.topnav a.padding{
+padding-left: 150px;
+}
+/* Style the topnav links */
+.topnav a {
+  display:inline-block;
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  text-align: center;
+  padding: 2px 13px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  position: relative;
+}
+
+.topnav a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+.topnav a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.bar {
+  background-attachment:fixed;
+  width: 96.85%;
+  bottom:0;
+  font-size: 21px;
+  text-align: center;
+  text-shadow: 0px 0px 8px black;
+  padding: 5px 20px 5px 20px;
+  color: white;
+  background-color:#b1040e;
+}
+.centered {
+  position: absolute;
+  font-family: SourceSansPro;
+  font-size: 135px;
+  text-shadow: 2px 2px 8px black;
+  color:white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.s1{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.scrolling {
+  background-attachment:fixed;
+  width:100%;
+  top: 0;
+  z-index:1;
+  margin: 0;
+}
+.button {
+  border: none;
+  background-color: #b1040e; 
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 16px 32px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #8B0000;
+}
+.newnav{
+ background-color: #b1040e;
+}
